@@ -13,15 +13,11 @@
     display: inline-block;
    }
 
-   .lista-2 {
+   .lista {
     margin-left: 28px;
    }
 
-   .lista-3 {
-    margin-left: 28px;
-   }
-
-  .first {
+   .first {
     background-color: rgb(235, 200, 84);
     font-size: 20px;
     height: 50px;
