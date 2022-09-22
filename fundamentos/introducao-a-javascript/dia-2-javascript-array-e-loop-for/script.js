@@ -5,8 +5,9 @@ let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 let sum = 0;
 let mediaNumbers = 0;
 let message = "";
+let highestValue = 0;
 
-for (let i = 0; i < numbers.length; i += 1) {
+/* for (let i = 0; i < numbers.length; i += 1) {
   sum += numbers[i];
   mediaNumbers = sum / numbers.length;
 }
@@ -18,4 +19,12 @@ if (mediaNumbers > 20) {
 }
 
 console.log(mediaNumbers);
-console.log(message);
+console.log(message); */
+
+for (let index = 0; index < numbers.length; index += 1) {
+ if (highestValue < numbers[index]) {
+  highestValue = numbers[index];
+ }
+}
+
+console.log(highestValue);
