@@ -31,7 +31,7 @@ if (nota >= 80) {
 }*/
 
 //Ex-4.dia-1
-const currentHour = 23;
+/*const currentHour = 23;
 let message = '';
 
 if (currentHour >= 22) {
@@ -46,4 +46,15 @@ if (currentHour >= 22) {
   message = 'Hmmm, cheiro de café recém-passado';
 }
 
-console.log(message);
+console.log(message);*/
+
+//Ex-5.dia-1
+let weekDay = 'feriado';
+
+if (weekDay == 'segunda-feira' || weekDay == 'terça-feira' || weekDay == 'quarta-feira' || weekDay == 'quinta-feira' || weekDay == 'sexta-feira') {
+  console.log('Oba, mais um dia de aprendizado na Trybe >:D.');
+} else if (weekDay == 'sábado' || weekDay == 'domingo') {
+  console.log('FINALMENTE, descanso merecido UwU.');
+} else {
+  console.log('Dia da semana inválido!');
+}
