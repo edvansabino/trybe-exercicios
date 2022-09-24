@@ -10,6 +10,7 @@ console.log(myName);
 console.log(birthCity);
 console.log(birthYear);*/
 
+//Ex-2.dia-1
 /*const base = 5;
 const heigth = 8;
 const area = base * heigth;
@@ -18,7 +19,8 @@ const perimeter = base + heigth + base + heigth;
 console.log(area);
 console.log(perimeter);*/
 
-const nota = 85;
+//Ex-3.dia-1
+/*const nota = 85;
 
 if (nota >= 80) {
   console.log("Parabéns, você foi aprovada(o)!");
@@ -26,4 +28,22 @@ if (nota >= 80) {
   console.log("Você está na nossa lista de espera");
 } else {
   console.log("Você foi reprovada(o)");
+}*/
+
+//Ex-4.dia-1
+const currentHour = 23;
+let message = '';
+
+if (currentHour >= 22) {
+  message = 'Não deveríamos comer nada, é hora de dormir';
+} else if (currentHour >= 18 && currentHour < 22){
+  message = 'Rango da noite, vamos jantar :D';
+} else if (currentHour >= 14 && currentHour < 18){
+  message = 'Vamos fazer um bolo pro café da tarde?';
+} else if (currentHour >= 11 && currentHour < 14){
+  message = 'Hora do almoço!!!';
+} else {
+  message = 'Hmmm, cheiro de café recém-passado';
 }
+
+console.log(message);
