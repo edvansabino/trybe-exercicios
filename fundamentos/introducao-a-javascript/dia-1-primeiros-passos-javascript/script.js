@@ -49,7 +49,7 @@ if (currentHour >= 22) {
 console.log(message);*/
 
 //Ex-5.dia-1
-let weekDay = 'feriado';
+/*let weekDay = 'feriado';
 
 if (weekDay == 'segunda-feira' || weekDay == 'terça-feira' || weekDay == 'quarta-feira' || weekDay == 'quinta-feira' || weekDay == 'sexta-feira') {
   console.log('Oba, mais um dia de aprendizado na Trybe >:D.');
@@ -57,4 +57,24 @@ if (weekDay == 'segunda-feira' || weekDay == 'terça-feira' || weekDay == 'quart
   console.log('FINALMENTE, descanso merecido UwU.');
 } else {
   console.log('Dia da semana inválido!');
+}*/
+
+//Ex-6.dia-1
+let statusCandidato = 'xablau';
+
+switch (statusCandidato) {
+  case 'aprovada':
+    console.log('Parabéns, você foi aprovada(o)!');
+    break;
+
+  case 'lista':
+    console.log('Você está na nossa lista de espera.');
+    break;
+
+  case 'reprovada':
+    console.log('Você foi reprovada(o).');
+    break;
+
+  default:
+    console.log('Informação incorreta.');
 }
