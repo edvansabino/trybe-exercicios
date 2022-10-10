@@ -1,0 +1,73 @@
+/* .container {
+  border: 1px solid black;
+  display: flex;
+  height: 300px;
+  margin: auto;
+  width: 500px;
+}
+
+.keep {
+  align-self: center;
+  background-color: #FAA488;
+  display: flex;
+  justify-content: center;
+  width: 150px;
+  list-style: none;
+}
+
+.change {
+  Altere a propriedade align-self.
+  align-self: center;
+  background-color: #FBD26A;
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  list-style: none;
+}*/
+
+      .container {
+        border: 1px solid black;
+        display: flex;
+        height: 50px;
+        margin: auto;
+        width: 500px;
+      }
+
+      .box {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        width: 125px;
+      }
+
+      .one {
+        background-color: #FBD26A;
+        display: flex;
+        /* Altere a propriedade order. */
+        order: 1;
+        list-style: none;
+      }
+
+      .two {
+        background-color: #FAA488;
+        display: flex;
+        /* Altere a propriedade order. */
+        order: 2;
+        list-style: none;
+      }
+
+      .three {
+        background-color: #9069EF;
+        display: flex;
+        /* Altere a propriedade order. */
+        order: 3;
+        list-style: none;
+      }
+
+      .four {
+        background-color: #006472;
+        display: flex;
+        /* Altere a propriedade order. */
+        order: 4;
+        list-style: none;
+      }
