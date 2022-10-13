@@ -68,7 +68,12 @@ p strong {
 
 @media screen and (min-width: 500px){
   .cards .card:nth-of-type(1) {
-      background-color: #41197f;
-      display: initial;     
+  display: initial;     
+  }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 600px){
+  .card:nth-of-type(2) {
+    display: initial;
   }
 }
