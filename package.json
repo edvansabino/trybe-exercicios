@@ -1,0 +1,23 @@
+{
+  "name": "exrecicios_trybe",
+  "version": "1.0.0",
+  "description": "mais um teste do exercicio",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edvansabino/teste2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edvansabino/teste2/issues"
+  },
+  "homepage": "https://github.com/edvansabino/teste2#readme",
+  "devDependencies": {
+    "jest": "^29.2.1"
+  }
+}
